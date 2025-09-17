@@ -1,0 +1,63 @@
+{
+  "devices": [
+    {
+      "id": "example-plug",
+      "mac": "XX:XX:XX:XX:XX:XX",
+      "name": "Example Smart Plug",
+      "alias": "example plug",
+      "type": "plug",
+      "brand": "kasa",
+      "model": "HS103(US)",
+      "ip": "192.168.1.100",
+      "capabilities": [
+        "power"
+      ],
+      "room": "living-room",
+      "deviceId": "EXAMPLE_DEVICE_ID",
+      "sw_ver": "1.0.3 Build 201015 Rel.142523",
+      "hw_ver": "5.0",
+      "state": {
+        "power": "off"
+      },
+      "lastSeen": "2025-01-01T00:00:00.000Z",
+      "online": false
+    },
+    {
+      "id": "example-light",
+      "mac": "XX:XX:XX:XX:XX:XX",
+      "name": "Example Smart Light",
+      "alias": "example light",
+      "type": "light",
+      "brand": "kasa",
+      "model": "KL125(US)",
+      "ip": "192.168.1.101",
+      "capabilities": [
+        "power",
+        "brightness",
+        "color",
+        "color_temp"
+      ],
+      "room": "bedroom",
+      "deviceId": "EXAMPLE_DEVICE_ID_2",
+      "sw_ver": "1.0.5 Build 230613 Rel.151643",
+      "hw_ver": "4.0",
+      "features": {
+        "is_dimmable": true,
+        "is_color": true,
+        "is_variable_color_temp": true
+      },
+      "state": {
+        "power": "off",
+        "brightness": 100,
+        "color": {
+          "hue": 0,
+          "saturation": 0,
+          "value": 100
+        },
+        "color_temp": 4000
+      },
+      "lastSeen": "2025-01-01T00:00:00.000Z",
+      "online": false
+    }
+  ]
+}
